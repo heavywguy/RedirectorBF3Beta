@@ -5,7 +5,7 @@ You will need:
 A Blaze server (you can use https://github.com/heavywguy/BlazeServer)
 A DNS server, i used technitium dns server. (to redirect gosredirector.ea.com and gos.ea.com)
 
-Edit config.json so the redirector knows the ip of the blaze server (use 127.0.0.1 if the server running the redirector is also running the blaze server)
+Edit config.json so the redirector knows the ip of the blaze server (use the local ip address of the computer if the server running the redirector is also running the blaze server)
 Run BlazeRedirectorServer.exe
 Run the Blaze server.
 On the dns server, redirect these 2 domains: gosredirector.ea.com and gos.ea.com to the computers running the redirector and blaze (note: don't use 127.0.0.1 for this one, use ipconfig on the cmd and get the computer's local ip ex: 192.168.1.2)
@@ -23,6 +23,6 @@ go to the Bf3 open beta servers, edit config.ini so the game server knows which 
 # additional info 
 gosredirector.ea.com:
 client port: 42127
-gos.ea.com
-blaze client: 42129
-game server: 25200
+gos.ea.com:
+ blaze client: 42129
+ game server: 25200

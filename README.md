@@ -16,7 +16,7 @@ To connect the ps3 to your dns server: get the local ip of the computer running 
 Entering the BF3 Open Beta and entering multiplayer (while signed in) **should** put you into multiplayer.
 
 # But how do i enter a game?
-Install the Battlefield 3 Alpha-Beta AIO Repack v3 (https://drive.google.com/file/d/1IW-qG9-7T88Wu6Ykh0XsoP1gaGXGqP4S/view)
+Install the Battlefield 3 Alpha-Beta AIO Repack v3 (https://drive.google.com/file/d/1IW-qG9-7T88Wu6Ykh0XsoP1gaGXGqP4S/view) or (https://mega.nz/folder/bVtA2KTK#DzGRpRgrM6W5aggvcFxziw) for just the open beta server files.
 Password is nchardcore
 go to the Bf3 open beta servers, edit config.ini so the game server knows which ip is the redirector, if everything goes well, the redirector will receive it and will redirected to the blaze server.
 
